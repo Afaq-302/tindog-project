@@ -1,0 +1,120 @@
+/* <div class="row">
+    <div class="col" style="background-color:red; border:1px solid;"> col </div>
+    <div class="col" style="background-color:blue; border:1px solid;"> col </div>
+</div>
+<div class="row">
+    <div class="col-6" style="background-color:green; border:1px solid;"> col-6 </div>
+    <div class="col-6" style="background-color:green;  border:1px solid;"> col-6 </div>
+</div>
+<div class="row">
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:orange; border:1px solid;"> col-lg-3 col-md-4 col-sm-6</div>
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:orange; border:1px solid;"> col-lg-3 col-md-4 col-sm-6</div>
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:orange; border:1px solid;"> col-lg-3 col-md-4 col-sm-6</div>
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:orange; border:1px solid;"> col-lg-3 col-md-4 col-sm-6</div>
+</div>
+<div class="row">
+    <div class="col-lg-2 col-md-3" style="background-color:grey; border:1px solid;"> Column</div>
+    <div class="col-lg-2 col-md-3" style="background-color:grey; border:1px solid;"> Column</div>
+    <div class="col-lg-2 col-md-3" style="background-color:grey; border:1px solid;"> Column</div>
+    <div class="col-lg-2 col-md-3" style="background-color:grey; border:1px solid;"> Column</div>
+    <div class="col-lg-2 col-md-3" style="background-color:grey; border:1px solid;"> Column</div>
+    <div class="col-lg-2 col-md-3" style="background-color:grey; border:1px solid;"> Column</div>
+</div> */
+
+/* 
+<ul>
+<li>[glt language="English" label="English" image="no" text="yes" image_size="24"]</li>
+<li>[glt language="German" label="German" image="no" text="yes" image_size="24"]</li>
+<li>[glt language="French" label="French" image="no" text="yes" image_size="24"]</li>
+<li>[glt language="Persian" label="Persian" image="no" text="yes" image_size="24"]</li>
+</ul>
+ */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  /* font-family: 'Ubuntu', sans-serif; */
+}
+
+h1 {
+  /* font-family: "Montserrat-Black", sans-serif; */
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0;
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Buttons  */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image  */
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+/* Features Section  */
+
+#features {
+  margin: 50px 0;
+}
+
+.features-icon {
+  font-size: 3.5rem;
+  color: #ef8172;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.feature{
+  text-align: center;
+  
+}
+
+.feature h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+padding-top: 10px;
+
+}
+
+.feature p {
+  color: #8f8f8f;
+  width: 70%;
+  margin: 0 auto;
+}
